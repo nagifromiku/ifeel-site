@@ -148,6 +148,17 @@ nav.site a:hover { color: var(--accent); }
   margin: 0 auto;
 }
 
+/* real app icon in the hero (iOS squircle + soft jade glow) */
+.appicon {
+  display: block;
+  width: 112px; height: 112px;
+  margin: 0 auto 40px;
+  border-radius: 25px;
+  border: 1px solid rgba(116,224,174,0.18);
+  box-shadow: 0 0 46px 6px rgba(116,224,174,0.30),
+              0 18px 44px -12px rgba(0,0,0,0.6);
+}
+
 /* soft moon glow behind the mark */
 .glowmark {
   width: 66px; height: 66px;
